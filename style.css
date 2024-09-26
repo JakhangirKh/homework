@@ -1,0 +1,291 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1440px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+body {
+  background: rgb(246, 248, 251);
+}
+
+.navbar {
+  display: flex;
+  padding: 28px 0;
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-direction: row;
+}
+
+.link a {
+  color: rgb(2, 7, 62);
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 33px;
+  letter-spacing: 0px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn {
+  box-sizing: border-box;
+  border: 2px solid rgb(141, 68, 139);
+  border-radius: 5px;
+  background: rgb(249, 251, 253);
+  padding: 13px 25px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  color: rgb(141, 68, 139);
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: -0.16px;
+  text-align: left;
+}
+
+.btn:hover {
+  background-color: rgb(141, 68, 139);
+  color: white;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  margin-top: 114px;
+  gap: 76px;
+}
+
+.header_content {
+  margin-top: 144px;
+}
+
+.header_title {
+  color: rgb(2, 7, 62);
+  font-family: "DM Sans";
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: -1.5px;
+  text-align: left;
+}
+
+.header_text {
+  color: rgb(2, 7, 62);
+  font-family: "DM Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.header__subscribe {
+  margin-top: 20px;
+  gap: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+.header_input {
+  border-radius: 8px;
+  width: 370px;
+  padding: 13px 12px 12px 24px;
+  box-shadow: 0px 10px 50px 0px rgba(48, 98, 145, 0.08);
+  background: rgb(255, 255, 255);
+  color: rgb(2, 7, 62);
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: left;
+  border: none;
+
+  outline: none;
+}
+
+.header_btn {
+  color: rgb(255, 255, 255);
+  font-family: "DM Sans";
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: center;
+  padding: 13px 41px;
+  cursor: pointer;
+  border-radius: 4px;
+  background: rgb(141, 68, 139);
+  border: none;
+}
+
+.header_sponsor {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: 60px;
+}
+
+.header_sponsor_text {
+  color: rgb(86, 98, 114);
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.section {
+  background: white;
+}
+
+.section_title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.section_title_text1 {
+  color: rgb(141, 68, 139);
+  font-family: "DM Sans";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 57px;
+}
+
+.section_title_text2 {
+  color: rgb(15, 33, 55);
+  font-family: "DM Sans";
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 55px;
+  letter-spacing: -1.5px;
+  text-align: center;
+}
+
+.section_cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(265px, 1fr));
+  gap: 60px;
+  margin-top: 78px;
+}
+
+.section_card {
+  text-align: center;
+}
+
+.section_card_title {
+  color: rgb(15, 33, 55);
+  font-family: "DM Sans";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.section_card_text {
+  color: rgb(52, 61, 72);
+  font-family: "DM Sans";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.section_boost {
+  background: white;
+}
+
+.section_boost_contents {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 130px;
+  gap: 100px;
+}
+
+.boots_content_title {
+  color: rgb(15, 33, 55);
+  font-family: "DM Sans";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: -1.5px;
+  text-align: left;
+}
+.boots_content {
+  width: 454px;
+}
+
+.boots_content_text {
+  color: rgb(2, 7, 62);
+  font-family: "DM Sans";
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-top: 22px;
+}
+
+.boots_item {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  margin-top: 30px;
+  align-items: center;
+}
+.boots_item img {
+  width: 23px;
+  height: 23px;
+}
+
+.boots_item_text {
+  color: rgb(2, 7, 62);
+  font-family: "DM Sans";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.boots_links {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.boots_link{
+  color: rgb(141, 68, 139);
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0px;
+  text-align: left;
+  gap: 10px;
+}
+
